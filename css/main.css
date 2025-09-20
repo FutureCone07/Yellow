@@ -19,6 +19,13 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
+.words{
+  text-align: center;
+    font-weight: 900;
+    font-size: clamp(1.5rem, 4vw, 3rem); 
+    padding-top: 5vh;
+    text-shadow: 0 0 12px #fce700, 0 0 50px #fce700, 0 0 100px #fce700;
+}
 .greetings {
     text-align: center;
     font-weight: 900;
